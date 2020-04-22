@@ -1,0 +1,50 @@
+@import url(//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black);
+
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter: #282828;
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+min-height: 100%
+}
+
+body {
+-webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  font-family: 'Circular Spotify', Arial, Helvetica, sans-serif;
+}
+
+.App {
+  height: calc(100vh - 90px);
+  background: $greyLight;
+  display: flex;
+}
+
+.outerWrap {
+  background: grey;
+  height: 100vh;
+  min-height: 100%
+}
+
+
+.musicControls {
+  background: $greyLighter;
+  text-align: center;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 2;
+  position: relative;
+}
