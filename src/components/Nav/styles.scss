@@ -17,8 +17,9 @@ $greyText: #b3b3b3;
       max-width: 130px;
       transform: scale(-1, 1);
       transform-origin: center;
-    } path {
-      fill: #fff;
+      path {
+        fill: #fff;
+      }
     }
   }
   ul {
@@ -39,8 +40,17 @@ $greyText: #b3b3b3;
       &:hover {
         color: white;
       }
+      svg {
+        width: 10px;
+        height: 10px;
+        path {
+        
+          fill: #fff;
+        }
+      }
     }
   }
+}
   .cookies {
     font-size: 0.6rem;
     color: $greyText;
@@ -48,7 +58,12 @@ $greyText: #b3b3b3;
     margin-top: auto;
     span {
       display: block;
+      padding: 10px;
+      font-size: 12px;
+    }
+    hr {
+      width: 15px;
+      margin: 0 auto;
     }
   }
-}
 
