@@ -5,13 +5,18 @@ $greyLighter: #282828;
 $arrowIcon: #9c9c9c;
 
 .upperNav {
-    background: $greyNav;
+    background: rgba(9, 9, 9, 0.78);
     height: 60px;
-    width: 100%;
+    width: calc(100% - 260px);
+    padding: 0.5rem 2rem;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
 
     .nav-buttons {
       display: flex;

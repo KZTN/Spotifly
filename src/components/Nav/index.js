@@ -16,9 +16,9 @@ const Nav = () => {
                 <li className="list-item "><LibraryIcon/>Your Library</li>
             </ul>
             <div className="cookies">
-                <span>Cookies</span>
+                <div className="cookie"><span>Cookies</span></div>
                 <hr />
-                <span>Privacy</span>
+                <div className="cookie"><span>Privacy</span></div>
             </div>
         </div>
     );    

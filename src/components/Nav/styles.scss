@@ -53,15 +53,31 @@ $greyText: #b3b3b3;
       color: $greyText;
       text-align: center;
       margin-top: auto;
+      margin-bottom: 30px;
+      .cookie {
+        margin: 0 auto;
+        width: 40px;
+        border-bottom: 1px solid transparent;
+        padding-bottom: 0.1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: all;
+        &:hover {
+          border-bottom: 1px solid $greyText;
+        }
+      }
       span {
-        display: block;
+        line-height: 0;
         padding: 10px;
         font-size: 12px;
       }
       hr {
         width: 15px;
-        margin: 0 auto;
+        margin: 8px auto;
       }
+
     }
   }
   

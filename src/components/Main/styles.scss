@@ -1,38 +1,76 @@
+$greyNav: #090909;
 $greyDark: #040404;
 $greyLight: #131313;
-$greyLigher: #282828;
-$greyNav: #090909;
+$greyLighter: #282828;
+$spanColor: #b3b3b3;
+
+
 
 .main {
-    width: 100%;
-    overflow-y: scroll;
-
-    .upperNav {
-        height: 60px;
-        width: 100%;
-        padding: 0.5rem 2rem;
-        color: white;
-        background: $greyNav;
-    
-    
-        display: flex;
-        align-items: center;
+  width: 100%;
+  overflow-y: scroll;
+  .mainContent {
+    color: #fff;
+    padding: 1.5rem 2rem;
+    margin-top: 56px;
+    h1 {
+      letter-spacing: 0px;
+      font-size: 1.65rem;
+      font-weight: 900;
     }
-
-    .mainContent {
-        color: #fff;
-        padding: 0.5rem 2rem;
-        h1, h2 {
-            margin-top: 15px;
-            margin-bottom: 20px;
-            font-size: 1.6rem;
-        }
-        .cardsWrap {
-            padding-bottom: 0.8rem;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        }
-
-    }
+  }
 }
 
+section {
+  width: 100%;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+}
+
+section + section{
+  margin-top: 36px;
+}
+
+
+
+section .action-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  button {
+    font-family: circularbold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    &:hover {
+      text-decoration: underline;
+    }
+    span {
+      color: $spanColor;
+    }
+  }
+}
+
+section .headerSection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+section .headerSection .subText {
+  font-size: 0.9rem;
+  font-family: circular;
+  letter-spacing: 0px;
+}
+
+.cardsWrap {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
