@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.scss'
+import {ReactComponent as PlayIcon} from '../../assets/buttons/playbtn.svg';
 const Card = () => {
     return(
         <div className="card">
@@ -12,7 +13,10 @@ const Card = () => {
         <div className="cardContent">
             <span>Liked Songs</span>
         </div>
-</div>
+        <span className="playIcon">
+            <PlayIcon/>
+        </span>
+        </div>
     );    
 }
 

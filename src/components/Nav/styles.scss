@@ -28,9 +28,17 @@ $greyText: #b3b3b3;
             list-style-type: none;
             font-size: 0.9rem;
             border-radius: 5px;
-            padding: 0.7rem;
+            padding: 0.5rem;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            svg {
+              margin-right: 15px;
+            }
             &.active {
                 background: $greyLigher;
             }

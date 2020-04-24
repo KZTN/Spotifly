@@ -2,6 +2,7 @@ $greyNav: #090909;
 $greyDark: #040404;
 $greyLight: #131313;
 $greyLighter: #282828;
+$playCardButton: #1db954;
 
 .card {
     background: $greyLighter;
@@ -9,7 +10,16 @@ $greyLighter: #282828;
     width: 165px;
     height: 240px;
     overflow: hidden;
-    padding: 1.25rem 1.25rem;
+    padding: 1.25rem 1.25rem 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    &:hover {
+      .playIcon {
+        opacity: 1;
+      }
+    }
     .cardImage {
       height: 124px;
       img {
@@ -19,10 +29,27 @@ $greyLighter: #282828;
       }
     }
     .cardContent {
-      margin-top: 15px;
+      margin: 15px 0;
       span {
       font-family: circularbold;
       font-size: 14px;
     }
+    }
+    .playIcon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: $playCardButton;
+
+      display: flex;
+      position: absolute;
+      bottom: 1.25rem;
+      right: 1.25rem;
+      margin-left: auto;
+      opacity: 0;
+      svg {
+        margin: auto;
+      }
     }
   }

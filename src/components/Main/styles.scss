@@ -5,6 +5,7 @@ $greyNav: #090909;
 
 .main {
     width: 100%;
+    overflow-y: scroll;
 
     .upperNav {
         height: 60px;
@@ -21,13 +22,15 @@ $greyNav: #090909;
     .mainContent {
         color: #fff;
         padding: 0.5rem 2rem;
-        h1 {
+        h1, h2 {
             margin-top: 15px;
             margin-bottom: 20px;
             font-size: 1.6rem;
         }
         .cardsWrap {
-            
+            padding-bottom: 0.8rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         }
 
     }
