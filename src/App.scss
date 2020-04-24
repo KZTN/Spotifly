@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $greyDark: #040404;
 $greyLight: #131313;
 $greyLigher: #282828;
@@ -11,6 +12,13 @@ $greyLigher: #282828;
   font-family: circularbold;
   src: url(./fonts/CircularStd-Bold.ttf);
 }
+=======
+@import url(//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black);
+
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter: #282828;
+>>>>>>> 16be7089327b37da2ef7eb7a52dfa659831c9eb2
 
 * {
   margin: 0;
@@ -20,6 +28,7 @@ $greyLigher: #282828;
 }
 
 html, body, #root {
+<<<<<<< HEAD
   height: 100%;
 }
 
@@ -29,10 +38,22 @@ html {
 
 body, input, button {
   font-family: circularbold;
+=======
+min-height: 100%
+}
+
+body {
+-webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  font-family: 'Circular Spotify', Arial, Helvetica, sans-serif;
+>>>>>>> 16be7089327b37da2ef7eb7a52dfa659831c9eb2
 }
 
 .App {
   height: calc(100vh - 90px);
+<<<<<<< HEAD
   background: red;
   background: $greyLight;
 
@@ -52,11 +73,35 @@ body, input, button {
   text-align: center;
   height: 90px;
   color: #fff;
+=======
+  background: $greyLight;
+  display: flex;
+}
+
+.outerWrap {
+  background: grey;
+  height: 100vh;
+  min-height: 100%
+}
+
+
+.musicControls {
+  background: $greyLighter;
+  text-align: center;
+  height: 90px;
+>>>>>>> 16be7089327b37da2ef7eb7a52dfa659831c9eb2
 
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   z-index: 2;
   position: relative;
 
 }
+=======
+  color: #fff;
+  z-index: 2;
+  position: relative;
+}
+>>>>>>> 16be7089327b37da2ef7eb7a52dfa659831c9eb2
