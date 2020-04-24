@@ -33,13 +33,25 @@ const Main = () => {
                 <section>
                     <div className="headerSection">
                         <div className="action-buttons">    
+                            <button><h1>Sleep</h1></button>
+                            <button><span>SEE ALL</span></button>
+                        </div>
+                        <div className="subText"></div>                   
+                    </div>
+                    <div className="cardsWrap">
+                        <Card/><Card/><Card/><Card/>
+                    </div>
+                </section>
+                <section>
+                    <div className="headerSection">
+                        <div className="action-buttons">    
                             <button><h1>Focus</h1></button>
                             <button><span>SEE ALL</span></button>
                         </div>
                         <div className="subText">Music to help you concentrate.</div>                   
                     </div>
                     <div className="cardsWrap">
-                        <Card/>
+                        <Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/>
                     </div>
                 </section>
             </div>
