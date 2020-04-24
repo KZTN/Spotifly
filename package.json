@@ -1,20 +1,12 @@
 {
-<<<<<<< HEAD
   "name": "mobile",
-=======
-  "name": "web",
->>>>>>> 16be7089327b37da2ef7eb7a52dfa659831c9eb2
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-<<<<<<< HEAD
     "node-sass": "^4.14.0",
-=======
-    "node-sass": "^4.13.1",
->>>>>>> 16be7089327b37da2ef7eb7a52dfa659831c9eb2
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"

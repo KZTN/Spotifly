@@ -1,22 +1,12 @@
-<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-=======
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
->>>>>>> 16be7089327b37da2ef7eb7a52dfa659831c9eb2
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-<<<<<<< HEAD
   document.getElementById('root')
-=======
-  document.getElementById("root")
->>>>>>> 16be7089327b37da2ef7eb7a52dfa659831c9eb2
 );
 
 // If you want your app to work offline and load faster, you can change
