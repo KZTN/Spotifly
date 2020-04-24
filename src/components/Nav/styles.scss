@@ -1,0 +1,59 @@
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLigher: #282828;
+$greyText: #b3b3b3;
+
+.navBar {
+    width: 260px;
+    height: 100%;
+    padding: 10px;
+    background: $greyDark;
+
+    display: flex;
+    flex-direction: column;
+    .logo {
+      padding: 0.9rem 1rem;
+      svg {
+        transform: scale(-1, 1);
+        max-width: 130px;
+        path {
+          fill: #fff;
+        }
+      }
+    }
+    ul {
+      margin-top: 5px;
+        li {
+            color: $greyText;
+            list-style-type: none;
+            font-size: 0.9rem;
+            border-radius: 5px;
+            padding: 0.7rem;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            &.active {
+                background: $greyLigher;
+            }
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .cookies {
+      font-size: 0.6rem;
+      font-family: circular;
+      color: $greyText;
+      text-align: center;
+      margin-top: auto;
+      span {
+        display: block;
+        padding: 10px;
+        font-size: 12px;
+      }
+      hr {
+        width: 15px;
+        margin: 0 auto;
+      }
+    }
+  }
+  

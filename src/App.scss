@@ -1,0 +1,62 @@
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLigher: #282828;
+
+@font-face {
+  font-family: circular;
+  src: url(./fonts/CircularStd-Book.ttf);
+}
+
+@font-face {
+  font-family: circularbold;
+  src: url(./fonts/CircularStd-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+html {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  font-family: circularbold;
+}
+
+.App {
+  height: calc(100vh - 90px);
+  background: red;
+  background: $greyLight;
+
+  display: flex;
+  flex-direction: row;
+}
+
+
+.outerWrap {
+  background: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.musicControls {
+  background: $greyLigher;
+  text-align: center;
+  height: 90px;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+
+}

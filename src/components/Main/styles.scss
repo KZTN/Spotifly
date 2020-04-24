@@ -1,0 +1,35 @@
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLigher: #282828;
+$greyNav: #090909;
+
+.main {
+    width: 100%;
+
+    .upperNav {
+        height: 60px;
+        width: 100%;
+        padding: 0.5rem 2rem;
+        color: white;
+        background: $greyNav;
+    
+    
+        display: flex;
+        align-items: center;
+    }
+
+    .mainContent {
+        color: #fff;
+        padding: 0.5rem 2rem;
+        h1 {
+            margin-top: 15px;
+            margin-bottom: 20px;
+            font-size: 1.6rem;
+        }
+        .cardsWrap {
+            
+        }
+
+    }
+}
+
