@@ -17,7 +17,7 @@ $greyText: #b3b3b3;
         transform: scale(-1, 1);
         max-width: 130px;
         path {
-          fill: #fff;
+          fill: $greyText;
         }
       }
     }
@@ -41,6 +41,10 @@ $greyText: #b3b3b3;
             }
             &.active {
                 background: $greyLigher;
+                color: #fff;
+                svg {
+                  fill: white;
+                }
             }
             &:hover {
                 color: #fff;

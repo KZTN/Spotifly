@@ -12,6 +12,7 @@ const Card = () => {
             </div>
         <div className="cardContent">
             <span>Liked Songs</span>
+            <p>Your daily update od the most played...</p>
         </div>
         <span className="playIcon">
             <PlayIcon/>
