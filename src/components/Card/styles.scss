@@ -23,7 +23,10 @@ $playCardButton: #1db954;
       }
     }
     .cardImage {
-      height: 124px;
+      display: inline-block;
+      height: 150px;
+      margin-bottom: 15px;
+
       img {
         width: 100%;
         height: 100%;
@@ -31,7 +34,6 @@ $playCardButton: #1db954;
       }
     }
     .cardContent {
-      margin: 15px 0;
       span {
         font-family: circularbold;
         font-size: 15px;
