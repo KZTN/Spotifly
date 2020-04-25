@@ -25,19 +25,19 @@ var [whoisactived, setWhoisactived] = useState(localStorage.getItem('active'));
       </div>
       <ul>
         <li className={whoisactived === 'home'? "active list-item" : "list-item"}>
-          <Link to="/" value="home" onClick={e => handleWhoisactived('home')}>
+          <Link to="/Spotifly" value="home" onClick={e => handleWhoisactived('home')}>
             <HomeIcon />
             Home
           </Link>
         </li>
         <li className={whoisactived === 'search'? "active list-item" : "list-item"}>
-          <Link to="/search" value="search" onClick={e => handleWhoisactived('search')}>
+          <Link to="/Spotifly/search" value="search" onClick={e => handleWhoisactived('search')}>
             <SearchIcon />
             Search
           </Link>
         </li>
         <li className={whoisactived === 'library'? "active list-item" : "list-item"}>
-          <Link to="/library" value="library" onClick={e => handleWhoisactived('library')}>
+          <Link to="/Spotifly/library" value="library" onClick={e => handleWhoisactived('library')}>
             <LibraryIcon />
             Your Library
           </Link>

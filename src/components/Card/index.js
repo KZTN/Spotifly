@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Card = (props) => {
   return (
     <div className="card">
-      <Link to={`/playlist/${props.id}`}>
+      <Link to={`/Spotifly/playlist/${props.id}`}>
         <div className="cardImage">
           <img src={props.thumbnail} alt="album image" />
         </div>
