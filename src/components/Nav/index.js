@@ -18,19 +18,19 @@ const Nav = () => {
       </div>
       <ul>
         <li className="list-item active">
-          <Link to="/">
+          <Link to="/Spotifly">
             <HomeIcon />
             Home
           </Link>
         </li>
         <li className="list-item ">
-          <Link to="/search">
+          <Link to="/Spotifly/search">
             <SearchIcon />
             Search
           </Link>
         </li>
         <li className="list-item ">
-          <Link to="/library">
+          <Link to="/Spotifly/library">
             <LibraryIcon />
             Your Library
           </Link>
