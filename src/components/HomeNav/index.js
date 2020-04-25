@@ -2,9 +2,9 @@ import React from 'react'
 import {ReactComponent as TopbackbtnIcon} from '../../assets/buttons/topbackbtn.svg';
 import {ReactComponent as TopfowardbtnIcon} from '../../assets/buttons/topfowardbtn.svg';
 import './styles.scss'
-const UpperNav = () => {
+const HomeNav = () => {
     return (
-    <div className="upperNav">
+    <div className="homeNav">
         <div className="nav-buttons">
             <button><TopbackbtnIcon/></button>
             <button><TopfowardbtnIcon/></button>
@@ -18,4 +18,4 @@ const UpperNav = () => {
 
 }
 
-export default UpperNav;
+export default HomeNav;

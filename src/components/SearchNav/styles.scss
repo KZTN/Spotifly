@@ -1,0 +1,100 @@
+$greyNav: #090909;
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter: #282828;
+$arrowIcon: #9c9c9c;
+
+.searchNav {
+  background: rgba(9, 9, 9, 0.78);
+  height: 60px;
+  width: calc(100% - 200px);
+  padding: 0.5rem 5rem 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  .left-box {
+    display: flex;
+    flex-direction: row;
+    .nav-buttons {
+      display: flex;
+      flex-direction: row;
+      width: 82px;
+      margin: auto 0;
+      justify-content: space-between;
+      button {
+        border: 0;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: $greyDark;
+        cursor: pointer;
+        svg {
+          width: 22px;
+          height: 22px;
+          path {
+            fill: $arrowIcon;
+          }
+        }
+      }
+    }
+    .search-box {
+      margin-left: 20px;
+      background: #fff;
+      width: 360px;
+      height: 40px;
+      padding: 0 1rem;
+      align-items: center;
+      border-radius: 40px;
+      svg {
+        width: 26px;
+        height: 26px;
+        path {
+          fill: #000;
+        }
+      }
+      display: flex;
+      flex-direction: row;
+      form {
+        margin-left: 10px;
+        width: 100%;
+      }
+      form input {
+        border: 0;
+        width: 100%;
+        font-family: circular;
+      }
+    }
+
+  }
+
+  .nav-auth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 230px;
+    button.btn-signup {
+      border: 0;
+      background: transparent;
+      color: #fff;
+      font-family: circularbold;
+      font-size: 13px;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+    button.btn-login {
+      border: 0;
+      background: #fff;
+      color: 0;
+      border-radius: 40px;
+      padding: 0.75rem 2.4rem;
+      font-family: circularbold;
+      font-size: 12px;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+  }
+}

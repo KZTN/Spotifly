@@ -1,0 +1,25 @@
+$greyNav: #090909;
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter: #282828;
+$spanColor: #b3b3b3;
+$greyText: #b3b3b3;
+
+
+
+.browse {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  .mainContent {
+    color: #fff;
+    padding: 1.5rem 2rem;
+    margin-top: 56px;
+    h1 {
+      letter-spacing: 0px;
+      font-size: 1.65rem;
+      font-weight: 900;
+    }
+  }
+}

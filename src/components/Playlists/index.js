@@ -72,7 +72,7 @@ const Playlists = (props) => {
     return(
         <>  
             {machtedPlaylists.map(playlist => (
-                <Card name={playlist.name} description={playlist.description} thumbnail={playlist.thumbnail}/>
+                <Card name={playlist.name} description={playlist.description} thumbnail={playlist.thumbnail} key={playlist.id}/>
             ))}
         </>
     );

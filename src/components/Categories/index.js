@@ -30,7 +30,7 @@ const Categories = () => {
   return (
     <>
       {dataCategories.map((category) => (
-        <div className="category">
+        <div className="category" key={category.id}>
           <div className="headerSection">
             <div className="action-buttons">
               <button>

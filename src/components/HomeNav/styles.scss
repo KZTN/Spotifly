@@ -4,18 +4,17 @@ $greyLight: #131313;
 $greyLighter: #282828;
 $arrowIcon: #9c9c9c;
 
-.upperNav {
-    background: rgba(9, 9, 9, 0.78);
-    height: 60px;
-    width: calc(100% - 260px);
-    padding: 0.5rem 2rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    z-index: 2;
+.homeNav {
+  background: rgba(9, 9, 9, 0.78);
+  height: 60px;
+  width: calc(100% - 200px);
+  padding: 0.5rem 5rem 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 
 
     .nav-buttons {
