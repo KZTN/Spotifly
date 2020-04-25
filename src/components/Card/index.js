@@ -4,8 +4,8 @@ import { ReactComponent as PlayIcon } from "../../assets/buttons/playbtn.svg";
 import { Link } from "react-router-dom";
 const Card = (props) => {
   return (
-    <div className="card">
-      <Link to={`/Spotifly/playlist/${props.id}`}>
+    <Link to={`/Spotifly/playlist/${props.id}`}>
+      <div className="card">
         <div className="cardImage">
           <img src={props.thumbnail} alt="album image" />
         </div>
@@ -16,8 +16,8 @@ const Card = (props) => {
         <span className="playIcon">
           <PlayIcon />
         </span>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 };
 
