@@ -8,7 +8,7 @@ export default function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/Spotifly" exact component={Home} />
         <Route path="/search" component={Search} />
         <Route path="/library" component={Library} />
         <Route path="/playlist/:id" component={Playlist}/>
