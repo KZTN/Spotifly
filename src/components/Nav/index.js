@@ -18,7 +18,7 @@ const Nav = () => {
       </div>
       <ul>
         <li className="list-item active">
-          <Link to="/Spotifly">
+          <Link to="/Spotifly/home">
             <HomeIcon />
             Home
           </Link>
