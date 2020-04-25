@@ -4,6 +4,8 @@ import Nav from '../../components/Nav'
 import HomeNav from '../../components/HomeNav';
 import Categories from '../../components/Categories';
 export default function Home() {
+    localStorage.setItem('active', 'home');
+
     return (
         <>
         <Nav/>

@@ -1,10 +1,17 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./styles.scss";
 import { ReactComponent as HomeIcon } from "../../assets/home.svg";
 import { ReactComponent as LibraryIcon } from "../../assets/library.svg";
 import { ReactComponent as SearchIcon } from "../../assets/search.svg";
 import { Link } from "react-router-dom";
 const Nav = () => {
+var [whoisactived, setWhoisactived] = useState(localStorage.getItem('active'));
+
+  function handleWhoisactived(e) {
+    localStorage.setItem('active', e);
+    setWhoisactived(localStorage.getItem('active'));
+    console.log(localStorage.getItem('active') + "is actived");
+  }
   return (
     <div className="navBar">
       <div className="logo">
@@ -17,20 +24,20 @@ const Nav = () => {
         </svg>
       </div>
       <ul>
-        <li className="list-item active">
-          <Link to="/Spotifly/home">
+        <li className={whoisactived === 'home'? "active list-item" : "list-item"}>
+          <Link to="/" value="home" onClick={e => handleWhoisactived('home')}>
             <HomeIcon />
             Home
           </Link>
         </li>
-        <li className="list-item ">
-          <Link to="/Spotifly/search">
+        <li className={whoisactived === 'search'? "active list-item" : "list-item"}>
+          <Link to="/search" value="search" onClick={e => handleWhoisactived('search')}>
             <SearchIcon />
             Search
           </Link>
         </li>
-        <li className="list-item ">
-          <Link to="/Spotifly/library">
+        <li className={whoisactived === 'library'? "active list-item" : "list-item"}>
+          <Link to="/library" value="library" onClick={e => handleWhoisactived('library')}>
             <LibraryIcon />
             Your Library
           </Link>
