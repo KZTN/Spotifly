@@ -24,7 +24,7 @@ $playCardButton: #1db954;
     }
     .cardImage {
       display: inline-block;
-      height: 150px;
+      height: 130px;
       margin-bottom: 15px;
 
       img {
@@ -34,6 +34,7 @@ $playCardButton: #1db954;
       }
     }
     .cardContent {
+      display: inline-block;
       span {
         font-family: circularbold;
         font-size: 15px;
