@@ -1,7 +1,8 @@
-import React from 'react'
-import './styles.scss'
-import Card from '../Card'
-import UpperNav from '../UpperNav'
+import React from 'react';
+import './styles.scss';
+import Card from '../Card';
+import UpperNav from '../UpperNav';
+import Categories from '../Categories';
 const Main = () => {
     return(
         <div className="main">
