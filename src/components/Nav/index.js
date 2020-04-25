@@ -25,7 +25,7 @@ var [whoisactived, setWhoisactived] = useState(localStorage.getItem('active'));
       </div>
       <ul>
         <li className={whoisactived === 'home'? "active list-item" : "list-item"}>
-          <Link to="/Spotifly" value="home" onClick={e => handleWhoisactived('home')}>
+          <Link to="/Spotifly/" value="home" onClick={e => handleWhoisactived('home')}>
             <HomeIcon />
             Home
           </Link>
