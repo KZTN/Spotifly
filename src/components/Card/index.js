@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.scss";
-import { ReactComponent as PlayIcon } from "../../assets/buttons/playbtn.svg";
+import { ReactComponent as PlayIcon } from "../../assets/buttons/playicon.svg";
 import { Link } from "react-router-dom";
 const Card = (props) => {
   return (
     <Link to={`/Spotifly/playlist/${props.id}`}>
       <div className="card">
         <div className="cardImage">
-          <img src={props.thumbnail} alt="album image" />
+          <img src={props.thumbnail} alt="album" />
         </div>
         <div className="cardContent">
           <span>{props.name}</span>

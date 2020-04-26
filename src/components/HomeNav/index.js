@@ -1,13 +1,13 @@
 import React from 'react'
-import {ReactComponent as TopbackbtnIcon} from '../../assets/buttons/topbackbtn.svg';
-import {ReactComponent as TopfowardbtnIcon} from '../../assets/buttons/topfowardbtn.svg';
+import {ReactComponent as TopbackIcon} from '../../assets/buttons/topbackicon.svg';
+import {ReactComponent as TopfowardIcon} from '../../assets/buttons/topfowardicon.svg';
 import './styles.scss'
 const HomeNav = () => {
     return (
     <div className="homeNav">
         <div className="nav-buttons">
-            <button><TopbackbtnIcon/></button>
-            <button><TopfowardbtnIcon/></button>
+            <button><TopbackIcon/></button>
+            <button><TopfowardIcon/></button>
         </div>
         <div className="nav-auth">
             <button className="btn-signup">SIGN UP</button>

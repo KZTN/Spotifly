@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from './components/Nav'
 import Routes from './Routes' 
 import MusicControls from './components/MusicControls'
 import './App.scss';

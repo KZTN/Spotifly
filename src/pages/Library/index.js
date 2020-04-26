@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Nav from "../../components/Nav";
 import SearchNav from '../../components/SearchNav';
 import "./styles.scss";
 export default function Library() {
-  localStorage.setItem('active', 'library');
-
+  useEffect(() => {
+    localStorage.setItem('active', 'library');
+  }, []);
   return (
     <>
       <Nav />

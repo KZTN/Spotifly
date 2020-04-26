@@ -4,22 +4,168 @@ $greyLight: #131313;
 $greyLighter: #282828;
 $spanColor: #b3b3b3;
 $greyText: #b3b3b3;
-
-
+$playCardButton: #1db954;
 
 .playlist {
   width: 100%;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  background-color: rgb(214, 214, 214);
   .mainContent {
+    height: 100%;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      color-stop(50%, #121212)
+    );
     color: #fff;
-    padding: 1.5rem 2rem;
-    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
     h1 {
       letter-spacing: 0px;
       font-size: 1.65rem;
       font-weight: 900;
+    }
+    .boxInfo {
+      margin-top: 56px;
+      padding: 56px 2rem 20px 2rem;
+      background: rgba(100,100,100,0.1);
+      margin-top: 30px;
+      width: 100%;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      .boxInfoImage {
+        width: 230px;
+        height: 230px;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .boxInfoDetails {
+        padding: 2rem 1.5rem 0 1.5rem;
+        & > * {
+          margin-top: 20px;
+        }
+        &:last-child .boxInfoOthersDetails {
+          margin-top: 5px;
+        }
+        h1 {
+          font-size: 78px;
+        }
+        span,
+        p {
+          font-family: circular;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .boxActions {
+      padding: 0 2rem;
+      margin: 2.2rem 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      position: relative;
+      & button:first-child {
+        margin-right: 20px;
+        background: $playCardButton;
+        position: absolute;
+        transition: all 0.1s ease-in-out;
+      }
+      & button:nth-child(2) {
+        margin-left: 70px;
+      }
+      & button:first-child:hover {
+        width: 58px;
+        height: 58px;
+      }
+      button {
+        border: 0;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: transparent;
+        cursor: pointer;
+        svg {
+          margin: auto;
+        }
+        svg {
+          width: 28px;
+          height: 28px;
+          fill: rgba(255, 255, 255, 0.7);
+        }
+        &:hover {
+          svg {
+            fill: white;
+          }
+        }
+      }
+    }
+    .boxSongs {
+      background: #121212;
+      padding: 0 2rem 4rem 2rem;
+      width: 100%;
+      height: 150%;
+      ul.songList {
+        list-style-type: none;
+        li {
+          width: 100%;
+          padding: 0.8rem;
+          display: flex;
+          align-items: center;
+          transition: background 0.2s ease-in-out;
+          &:hover {
+            background: rgba(255, 255, 255, 0.1);
+            .songIcon {
+              .noteI {
+                display: none;
+              }
+              .playI {
+                display: block;
+              }
+            }
+          }
+          .songDetails {
+            h3 {
+              margin: 0;
+              font-weight: 300;
+              font-size: 1rem;
+            }
+            span {
+              font-family: circular;
+              color: rgba(255, 255, 255, 0.7);
+              font-size: 0.9rem;
+            }
+          }
+          .songTime {
+            font-family: circular;
+            margin-left: auto;
+          }
+          .songIcon {
+            padding-right: 1rem;
+            .noteI {
+              display: block;
+            }
+            .playI {
+              display: none;
+            }
+            svg {
+              fill: rgba(255, 255, 255, 0.7);
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+      }
     }
   }
 }

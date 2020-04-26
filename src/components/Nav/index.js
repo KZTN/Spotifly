@@ -5,8 +5,10 @@ import { ReactComponent as LibraryIcon } from "../../assets/library.svg";
 import { ReactComponent as SearchIcon } from "../../assets/search.svg";
 import { Link } from "react-router-dom";
 const Nav = () => {
-var [whoisactived, setWhoisactived] = useState(localStorage.getItem('active'));
-
+var [whoisactived, setWhoisactived] = useState();
+useEffect(() => {
+  setWhoisactived(localStorage.getItem('active'));
+}, []);
   function handleWhoisactived(e) {
     localStorage.setItem('active', e);
     setWhoisactived(localStorage.getItem('active'));
