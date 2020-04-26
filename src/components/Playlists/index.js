@@ -9,6 +9,40 @@ import styled from "styled-components";
 import "./styles.scss";
 
 const Playlists = (props) => {
+  const responsiveSettings = [
+    {
+      breakpoint: 600,
+      settings: { slidesToShow: 1, slidesToScroll: 1}
+    },
+    {
+      breakpoint: 780,
+      settings: { slidesToShow: 2, slidesToScroll: 2}
+    },
+    {
+        breakpoint: 960,
+        settings: { slidesToShow: 3, slidesToScroll: 3}
+      },
+      {
+        breakpoint: 1140,
+        settings: { slidesToShow: 4, slidesToScroll: 4}
+      },
+      {
+        breakpoint: 1320,
+        settings: { slidesToShow: 5, slidesToScroll: 5}
+      },
+      {
+        breakpoint: 1500,
+        settings: { slidesToShow: 6, slidesToScroll: 6}
+      },
+      {
+        breakpoint: 1680,
+        settings: { slidesToShow: 7, slidesToScroll: 7}
+      },
+      {
+        breakpoint: 1840,
+        settings: { slidesToShow: 8, slidesToScroll: 8}
+      }
+  ]
   const dataPlaylists = [
     {
       id: 101,
@@ -132,10 +166,11 @@ const Playlists = (props) => {
     },
   ];
   const Wrapper = styled.div`
-width: 50%,
-display: flex,
-flex-direction: row
-`;
+  width: 100%;
+  display: flex,
+  flex-direction: row; 
+  margin: 0 auto;
+  `;
   const machtedPlaylists = dataPlaylists.filter(
     (playlist) => playlist.category_id === props.categoryId
   );
@@ -151,6 +186,7 @@ flex-direction: row
         dots={false}
         adaptiveHeight={true}
         arrows={false}
+        responsive={responsiveSettings}
       >
         {machtedPlaylists.map((playlist) => (
           <Card
