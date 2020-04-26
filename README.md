@@ -25,3 +25,43 @@
 <p align="center">
   <img alt="Spotifly" src=".github/Spotifly_showcase.png" width="100%">
 </p>
+
+## Starting...
+These instructions will provide a copy of the project running on your local machine for development and testing purposes.
+
+### Prerequisites
+What you need to install the software:
+
+```
+node v12.x
+yarn 1.22.4
+git
+```
+
+### Installing the project🚀
+Cloning the project:
+
+```
+git clone https://github.com/KZTN/Spotifly.git
+```
+
+Go to the project folder:
+
+```
+cd Spotifly
+```
+
+Getting project dependencies:
+
+```bash
+yarn install
+```
+
+Run the project:
+
+```bash
+yarn start
+```
+
+
+Visit http://localhost:3000 with your browser to see the result. 🎉
