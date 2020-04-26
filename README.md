@@ -26,44 +26,42 @@
   <img alt="Spotifly" src=".github/Spotifly_showcase.png" width="100%">
 </p>
 
-## Começando...
-Essas instruções fornecerão uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.
+## Starting...
+These instructions will provide a copy of the project running on your local machine for development and testing purposes.
 
-### Pré-requisitos
-O que você precisa para instalar o software:
+### Prerequisites
+What you need to install the software:
 
 ```
 node v12.x
 yarn 1.22.4
-npm 6.14.4
 git
 ```
-> Para uma experiência melhor no ambiente de testes com o servidor API REST, recomenda-se o uso do [insomnia](https://insomnia.rest/)
 
-### Instalando o projeto 🚀
-Clonando o projeto:
+### Installing the project🚀
+Cloning the project:
 
 ```
 git clone https://github.com/KZTN/Spotifly.git
 ```
 
-Navegando até a pasta do projeto:
+Go to the project folder:
 
 ```
 cd Spotifly
 ```
 
-Baixando as dependências do projeto:
+Getting project dependencies:
 
 ```bash
 yarn install
 ```
 
-Rodando o projeto:
+Run the project:
 
 ```bash
 yarn start
 ```
 
 
-Visite http://localhost:3000 com o seu navegador para ver o resultado. 🎉
+Visit http://localhost:3000 with your browser to see the result. 🎉
