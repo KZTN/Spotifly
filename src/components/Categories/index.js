@@ -41,9 +41,7 @@ const Categories = () => {
             </div>
       <div className="subText">{category.tagline}</div>
           </div>
-          <div className="cardsWrap">
               <Playlists categoryId={category.id}/>
-          </div>
         </div>
       ))}
     </>

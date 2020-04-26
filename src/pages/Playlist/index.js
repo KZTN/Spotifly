@@ -6,15 +6,16 @@ import { ReactComponent as PlayIcon } from "../../assets/buttons/playicon.svg";
 import { ReactComponent as HeartIcon } from "../../assets/buttons/hearticon.svg";
 import { ReactComponent as ThreedotsIcon } from "../../assets/buttons/threedotsicon.svg";
 import { ReactComponent as NoteIcon } from "../../assets/buttons/noteicon.svg";
+import { isMobile } from "react-device-detect";
 
 import "./styles.scss";
 export default function Playlist(props) {
   const { id } = useParams();
   return (
     <>
-      <Nav />
+      {isMobile? <></> : <Nav /> }
       <div className="playlist">
-        <HomeNav />
+        {isMobile? <></> : <HomeNav />}
         <div className="mainContent">
           <div className="boxInfo">
             <div className="boxInfoImage">

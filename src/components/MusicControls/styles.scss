@@ -7,11 +7,12 @@ $greyLigher: #282828;
     text-align: center;
     height: 90px;
     color: #fff;
-  
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2;
-    position: relative;
-  
+    position: fixed;
+    bottom: 0;  
+    left: 0;
   }

@@ -1,6 +1,8 @@
 import React from 'react';
 import Routes from './Routes' 
 import MusicControls from './components/MusicControls'
+import { isMobile } from "react-device-detect";
+
 import './App.scss';
 
 function App() {
@@ -9,7 +11,7 @@ function App() {
       <div className="App">
         <Routes/>
       </div>
-      <MusicControls/>
+      {isMobile? <></>: <MusicControls/>}
     </div>
   );
 }
