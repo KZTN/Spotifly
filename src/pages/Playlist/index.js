@@ -25,7 +25,7 @@ export default function Playlist(props) {
             </div>
             <div className="boxInfoDetails">
               <span>PLAYLIST</span>
-              <h1>Playlist 1</h1>
+              <h1>Playlist {id}</h1>
               <p>
                 Minimalism, eletronics and modern clasiscal to concentrate to.
               </p>
