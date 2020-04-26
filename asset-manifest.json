@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Spotifly/static/css/main.1e38b2dd.chunk.css",
+    "main.js": "/Spotifly/static/js/main.2ced6fdb.chunk.js",
+    "main.js.map": "/Spotifly/static/js/main.2ced6fdb.chunk.js.map",
+    "runtime-main.js": "/Spotifly/static/js/runtime-main.b328638c.js",
+    "runtime-main.js.map": "/Spotifly/static/js/runtime-main.b328638c.js.map",
+    "static/css/2.16e1d9ce.chunk.css": "/Spotifly/static/css/2.16e1d9ce.chunk.css",
+    "static/js/2.78710fb2.chunk.js": "/Spotifly/static/js/2.78710fb2.chunk.js",
+    "static/js/2.78710fb2.chunk.js.map": "/Spotifly/static/js/2.78710fb2.chunk.js.map",
+    "index.html": "/Spotifly/index.html",
+    "precache-manifest.88630c3e99ffc40cb19be473a6d1f402.js": "/Spotifly/precache-manifest.88630c3e99ffc40cb19be473a6d1f402.js",
+    "service-worker.js": "/Spotifly/service-worker.js",
+    "static/css/2.16e1d9ce.chunk.css.map": "/Spotifly/static/css/2.16e1d9ce.chunk.css.map",
+    "static/css/main.1e38b2dd.chunk.css.map": "/Spotifly/static/css/main.1e38b2dd.chunk.css.map",
+    "static/js/2.78710fb2.chunk.js.LICENSE.txt": "/Spotifly/static/js/2.78710fb2.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Spotifly/static/media/CircularStd-Book.9e311611.ttf",
+    "static/media/hearticon.9834a799.svg": "/Spotifly/static/media/hearticon.9834a799.svg",
+    "static/media/home.e7a5703b.svg": "/Spotifly/static/media/home.e7a5703b.svg",
+    "static/media/library.b38d7a1d.svg": "/Spotifly/static/media/library.b38d7a1d.svg",
+    "static/media/noteicon.ceeb8cd1.svg": "/Spotifly/static/media/noteicon.ceeb8cd1.svg",
+    "static/media/playicon.82a32ca0.svg": "/Spotifly/static/media/playicon.82a32ca0.svg",
+    "static/media/search.cf7d28b6.svg": "/Spotifly/static/media/search.cf7d28b6.svg",
+    "static/media/slick-theme.css": "/Spotifly/static/media/slick.f97e3bbf.svg",
+    "static/media/threedotsicon.ba0cc007.svg": "/Spotifly/static/media/threedotsicon.ba0cc007.svg",
+    "static/media/topbackicon.659cde52.svg": "/Spotifly/static/media/topbackicon.659cde52.svg",
+    "static/media/topfowardicon.caae9c37.svg": "/Spotifly/static/media/topfowardicon.caae9c37.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b328638c.js",
+    "static/css/2.16e1d9ce.chunk.css",
+    "static/js/2.78710fb2.chunk.js",
+    "static/css/main.1e38b2dd.chunk.css",
+    "static/js/main.2ced6fdb.chunk.js"
+  ]
+}
