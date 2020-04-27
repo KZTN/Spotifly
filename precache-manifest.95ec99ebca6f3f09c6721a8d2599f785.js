@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbb780511a08e22b1aae40f4c3f91365",
+    "revision": "6406b38af8a42ef57db1f19ce9541c07",
     "url": "/Spotifly/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Spotifly/static/css/2.16e1d9ce.chunk.css"
   },
   {
-    "revision": "0d62592b0ac4eb73766c",
-    "url": "/Spotifly/static/css/main.d3f1793c.chunk.css"
+    "revision": "efe8bcb3c4d05e6b4ab8",
+    "url": "/Spotifly/static/css/main.b9ef5468.chunk.css"
   },
   {
     "revision": "0afc0a1a1400fa69c557",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Spotifly/static/js/2.54e2f677.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d62592b0ac4eb73766c",
-    "url": "/Spotifly/static/js/main.50de5219.chunk.js"
+    "revision": "efe8bcb3c4d05e6b4ab8",
+    "url": "/Spotifly/static/js/main.e3f120f0.chunk.js"
   },
   {
     "revision": "4f703027879b6be4145c",
