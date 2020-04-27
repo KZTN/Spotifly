@@ -5,44 +5,44 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { isMobile } from "react-device-detect";
 import styled from "styled-components";
-
+import CardMobile from '../CardMobile'
 import "./styles.scss";
 
 const Playlists = (props) => {
   const responsiveSettings = [
     {
       breakpoint: 600,
-      settings: { slidesToShow: 1, slidesToScroll: 1}
+      settings: { slidesToShow: 1, slidesToScroll: 1 },
     },
     {
       breakpoint: 780,
-      settings: { slidesToShow: 2, slidesToScroll: 2}
+      settings: { slidesToShow: 2, slidesToScroll: 2 },
     },
     {
-        breakpoint: 960,
-        settings: { slidesToShow: 3, slidesToScroll: 3}
-      },
-      {
-        breakpoint: 1140,
-        settings: { slidesToShow: 4, slidesToScroll: 4}
-      },
-      {
-        breakpoint: 1320,
-        settings: { slidesToShow: 5, slidesToScroll: 5}
-      },
-      {
-        breakpoint: 1500,
-        settings: { slidesToShow: 6, slidesToScroll: 6}
-      },
-      {
-        breakpoint: 1680,
-        settings: { slidesToShow: 7, slidesToScroll: 7}
-      },
-      {
-        breakpoint: 1840,
-        settings: { slidesToShow: 8, slidesToScroll: 8}
-      }
-  ]
+      breakpoint: 960,
+      settings: { slidesToShow: 3, slidesToScroll: 3 },
+    },
+    {
+      breakpoint: 1140,
+      settings: { slidesToShow: 4, slidesToScroll: 4 },
+    },
+    {
+      breakpoint: 1320,
+      settings: { slidesToShow: 5, slidesToScroll: 5 },
+    },
+    {
+      breakpoint: 1500,
+      settings: { slidesToShow: 6, slidesToScroll: 6 },
+    },
+    {
+      breakpoint: 1680,
+      settings: { slidesToShow: 7, slidesToScroll: 7 },
+    },
+    {
+      breakpoint: 1840,
+      settings: { slidesToShow: 8, slidesToScroll: 8 },
+    },
+  ];
   const dataPlaylists = [
     {
       id: 101,
@@ -166,39 +166,75 @@ const Playlists = (props) => {
     },
   ];
   const Wrapper = styled.div`
-  width: 100%;
-  display: flex,
-  flex-direction: row; 
-  margin: 0 auto;
+    width: 100%;
+  `;
+  const WrapperMobile = styled.div`
+    width: 110%;
+    margin: 0;
+    padding: 0;
+    postion: absolute;
+    margin-left: -35px;
+
+    .slick-list:first-child {
+      margin-left: 20px;
+  }
   `;
   const machtedPlaylists = dataPlaylists.filter(
     (playlist) => playlist.category_id === props.categoryId
   );
 
   return (
-    <Wrapper>
-      <Slider
-        centerMode={isMobile ? true : false}
-        infinite={false}
-        speed={500}
-        slidesToShow={isMobile ? 1 : 8}
-        slidesToScroll={isMobile ? 1 : 8}
-        dots={false}
-        adaptiveHeight={true}
-        arrows={false}
-        responsive={responsiveSettings}
-      >
-        {machtedPlaylists.map((playlist) => (
-          <Card
-            name={playlist.name}
-            description={playlist.description}
-            thumbnail={playlist.thumbnail}
-            id={playlist.id}
-            key={playlist.id}
-          />
-        ))}
-      </Slider>
-    </Wrapper>
+    <>
+      {isMobile ? (
+        <WrapperMobile>
+          <Slider
+            centerMode={false}
+            infinite={false}
+            speed={500}
+            slidesToShow={2}
+            slidesToScroll={1}
+            dots={false}
+            adaptiveHeight={true}
+            arrows={false}
+          >
+            {machtedPlaylists.map((playlist) => (
+              <CardMobile
+                name={playlist.name}
+                description={playlist.description}
+                thumbnail={playlist.thumbnail}
+                id={playlist.id}
+                key={playlist.id}
+              />
+            ))}
+          </Slider>
+        </WrapperMobile>
+      ) : (
+        <Wrapper>
+          {" "}
+          <Slider
+            centerMode={false}
+            infinite={false}
+            speed={500}
+            slidesToShow={8}
+            slidesToScroll={8}
+            dots={false}
+            adaptiveHeight={true}
+            arrows={false}
+            responsive={responsiveSettings}
+          >
+            {machtedPlaylists.map((playlist) => (
+              <Card
+                name={playlist.name}
+                description={playlist.description}
+                thumbnail={playlist.thumbnail}
+                id={playlist.id}
+                key={playlist.id}
+              />
+            ))}
+          </Slider>
+        </Wrapper>
+      )}
+    </>
   );
 };
 
