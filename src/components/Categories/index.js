@@ -1,6 +1,6 @@
 import React from "react";
-import Playlists from '../Playlists';
-
+import Playlists from "../Playlists";
+import { isMobile } from "react-device-detect";
 import "./styles.scss";
 
 const Categories = () => {
@@ -35,13 +35,17 @@ const Categories = () => {
               <button>
                 <h1>{category.name}</h1>
               </button>
-              <button>
-                <span>SEE ALL</span>
-              </button>
+              {isMobile ? (
+                <></>
+              ) : (
+                <button>
+                  <span>SEE ALL</span>
+                </button>
+              )}
             </div>
-      <div className="subText">{category.tagline}</div>
+            <div className="subText">{category.tagline}</div>
           </div>
-              <Playlists categoryId={category.id}/>
+          <Playlists categoryId={category.id} />
         </div>
       ))}
     </>
