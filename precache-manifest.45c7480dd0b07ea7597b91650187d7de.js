@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b7d848bc5963c0a85188186ed8a1366",
+    "revision": "d97fe221b4f913531b9e7e2162119001",
     "url": "/Spotifly/index.html"
   },
   {
-    "revision": "0afc0a1a1400fa69c557",
+    "revision": "c6d5578ed6b801142eea",
     "url": "/Spotifly/static/css/2.16e1d9ce.chunk.css"
   },
   {
-    "revision": "0722b7ca1d9dd514a250",
+    "revision": "15ff1f68b084457369b5",
     "url": "/Spotifly/static/css/main.d7b7f372.chunk.css"
   },
   {
-    "revision": "0afc0a1a1400fa69c557",
-    "url": "/Spotifly/static/js/2.54e2f677.chunk.js"
+    "revision": "c6d5578ed6b801142eea",
+    "url": "/Spotifly/static/js/2.50ca9ce0.chunk.js"
   },
   {
     "revision": "fdd30b2ab44ae896589b798d411d5c2c",
-    "url": "/Spotifly/static/js/2.54e2f677.chunk.js.LICENSE.txt"
+    "url": "/Spotifly/static/js/2.50ca9ce0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0722b7ca1d9dd514a250",
-    "url": "/Spotifly/static/js/main.2f35b045.chunk.js"
+    "revision": "15ff1f68b084457369b5",
+    "url": "/Spotifly/static/js/main.7f98524f.chunk.js"
   },
   {
     "revision": "4f703027879b6be4145c",
