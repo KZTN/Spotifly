@@ -64,4 +64,4 @@ yarn start
 ```
 
 
-Visit http://localhost:3000/SPotifly with your browser to see the result. 🎉
+Visit http://localhost:3000/Spotifly with your browser to see the result. 🎉
