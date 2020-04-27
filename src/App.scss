@@ -53,3 +53,10 @@ a {
 }
 
 
+@media (max-width: 650px) {
+  .main {
+    .mainContent {
+      padding: 1.5rem 2rem 10rem 1rem;
+    }
+  }
+}

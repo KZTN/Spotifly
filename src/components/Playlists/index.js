@@ -169,15 +169,15 @@ const Playlists = (props) => {
     width: 100%;
   `;
   const WrapperMobile = styled.div`
-    width: 130%;
+    width: 160%;
     margin: 0;
     padding: 0;
     postion: absolute;
-    margin-left: -50px;
-
+    margin-left: -35px;
     .slick-list:first-child {
       margin-left: 20px;
   }
+
   `;
   const machtedPlaylists = dataPlaylists.filter(
     (playlist) => playlist.category_id === props.categoryId
@@ -192,7 +192,7 @@ const Playlists = (props) => {
             centerMode={false}
             infinite={false}
             speed={500}
-            slidesToShow={2}
+            slidesToShow={3}
             slidesToScroll={2}
             dots={false}
             adaptiveHeight={true}
