@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Spotifly/static/css/main.2c916ed4.chunk.css",
-    "main.js": "/Spotifly/static/js/main.7cf46f09.chunk.js",
-    "main.js.map": "/Spotifly/static/js/main.7cf46f09.chunk.js.map",
+    "main.css": "/Spotifly/static/css/main.d3f1793c.chunk.css",
+    "main.js": "/Spotifly/static/js/main.50de5219.chunk.js",
+    "main.js.map": "/Spotifly/static/js/main.50de5219.chunk.js.map",
     "runtime-main.js": "/Spotifly/static/js/runtime-main.b328638c.js",
     "runtime-main.js.map": "/Spotifly/static/js/runtime-main.b328638c.js.map",
     "static/css/2.16e1d9ce.chunk.css": "/Spotifly/static/css/2.16e1d9ce.chunk.css",
-    "static/js/2.78710fb2.chunk.js": "/Spotifly/static/js/2.78710fb2.chunk.js",
-    "static/js/2.78710fb2.chunk.js.map": "/Spotifly/static/js/2.78710fb2.chunk.js.map",
+    "static/js/2.54e2f677.chunk.js": "/Spotifly/static/js/2.54e2f677.chunk.js",
+    "static/js/2.54e2f677.chunk.js.map": "/Spotifly/static/js/2.54e2f677.chunk.js.map",
     "index.html": "/Spotifly/index.html",
-    "precache-manifest.53f2da86309beba7a25549b1448f4e6d.js": "/Spotifly/precache-manifest.53f2da86309beba7a25549b1448f4e6d.js",
+    "precache-manifest.09c65c40667a71c57c2a29fdc7711769.js": "/Spotifly/precache-manifest.09c65c40667a71c57c2a29fdc7711769.js",
     "service-worker.js": "/Spotifly/service-worker.js",
     "static/css/2.16e1d9ce.chunk.css.map": "/Spotifly/static/css/2.16e1d9ce.chunk.css.map",
-    "static/css/main.2c916ed4.chunk.css.map": "/Spotifly/static/css/main.2c916ed4.chunk.css.map",
-    "static/js/2.78710fb2.chunk.js.LICENSE.txt": "/Spotifly/static/js/2.78710fb2.chunk.js.LICENSE.txt",
+    "static/css/main.d3f1793c.chunk.css.map": "/Spotifly/static/css/main.d3f1793c.chunk.css.map",
+    "static/js/2.54e2f677.chunk.js.LICENSE.txt": "/Spotifly/static/js/2.54e2f677.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/Spotifly/static/media/CircularStd-Book.9e311611.ttf",
     "static/media/hearticon.9834a799.svg": "/Spotifly/static/media/hearticon.9834a799.svg",
     "static/media/home.e7a5703b.svg": "/Spotifly/static/media/home.e7a5703b.svg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.b328638c.js",
     "static/css/2.16e1d9ce.chunk.css",
-    "static/js/2.78710fb2.chunk.js",
-    "static/css/main.2c916ed4.chunk.css",
-    "static/js/main.7cf46f09.chunk.js"
+    "static/js/2.54e2f677.chunk.js",
+    "static/css/main.d3f1793c.chunk.css",
+    "static/js/main.50de5219.chunk.js"
   ]
 }
