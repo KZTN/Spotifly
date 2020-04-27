@@ -169,11 +169,11 @@ const Playlists = (props) => {
     width: 100%;
   `;
   const WrapperMobile = styled.div`
-    width: 110%;
+    width: 130%;
     margin: 0;
     padding: 0;
     postion: absolute;
-    margin-left: -35px;
+    margin-left: -50px;
 
     .slick-list:first-child {
       margin-left: 20px;
@@ -185,14 +185,15 @@ const Playlists = (props) => {
 
   return (
     <>
-      {isMobile ? (
+      {isMobile? (
+        
         <WrapperMobile>
           <Slider
             centerMode={false}
             infinite={false}
             speed={500}
             slidesToShow={2}
-            slidesToScroll={1}
+            slidesToScroll={2}
             dots={false}
             adaptiveHeight={true}
             arrows={false}
@@ -210,7 +211,6 @@ const Playlists = (props) => {
         </WrapperMobile>
       ) : (
         <Wrapper>
-          {" "}
           <Slider
             centerMode={false}
             infinite={false}

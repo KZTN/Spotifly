@@ -2,10 +2,10 @@ import React from "react";
 import "./styles.scss";
 import { ReactComponent as PlayIcon } from "../../assets/buttons/playicon.svg";
 import { Link } from "react-router-dom";
-const Card = (props) => {
+const CardMobile = (props) => {
   return (
     <Link to={`/Spotifly/playlist/${props.id}`}>
-      <div className="card">
+      <div className="cardMobile">
         <div className="cardImage">
           <img src={props.thumbnail} alt="album" />
         </div>
@@ -21,4 +21,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default CardMobile;
